@@ -29,20 +29,24 @@
             <div class="disp" id="timer">
                 <div class="theDisplay" id="timerDisplay">00:00:00</div>
                 <div id="timerBtns">
-                    <div class="inputTime">
-                        <label for="hours">Hours</label>
-                        <input type="number" name="hours" id="timerHours" min="0" value="0" max="59">
+                    <div class="theInput">
+                        <div class="inputTime">
+                            <label for="hours">Hours</label>
+                            <input type="number" name="hours" id="timerHours" min="0" value="0" max="59">
+                        </div>
+                        <div class="inputTime">
+                            <label for="minute">Minute</label>
+                            <input type="number" name="minute" id="timerMinute" min="0" value="0" max="59">
+                        </div>
+                        <div class="inputTime">
+                            <label for="secoud">Second</label>
+                            <input type="number" name="second" id="timerSecond" min="0" value="0" max="59">
+                        </div>
                     </div>
-                    <div class="inputTime">
-                        <label for="minute">Minute</label>
-                        <input type="number" name="minute" id="timerMinute" min="0" value="0" max="59">
+                    <div class="theBtn">
+                        <button class="btn" id="startTimer">Start</button>
+                        <button class="btn" id="resetTimer">Reset</button>
                     </div>
-                    <div class="inputTime">
-                        <label for="secoud">Second</label>
-                        <input type="number" name="second" id="timerSecond" min="0" value="0" max="59">
-                    </div>
-                    <button class="btn" id="startTimer">Start</button>
-                    <button class="btn" id="resetTimer">Reset</button>
                 </div>
             </div>
             <div class="disp" id="chrono">

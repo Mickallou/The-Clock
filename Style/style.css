@@ -77,6 +77,8 @@ nav ul li a:hover {
     align-items: center;
     width: 60%;
     margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -109,6 +111,24 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.theInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.theBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .inputTime {
     display: flex;
     flex-direction: column;
@@ -139,4 +159,13 @@ nav ul li a:hover {
     .theDisplay {
         font-size: 6rem;
     }
+
+    #timerDisplay {
+        font-size: 6rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
 }
